@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A -1 | sort -C | tr '\n' ',' | sed -n 's/^\([^\.][^\n,]*\|[^\n,]*[/]\)$/\1,/p'
+ls -1Ap | sort -d -k1.1,1.1 -k1.2n
