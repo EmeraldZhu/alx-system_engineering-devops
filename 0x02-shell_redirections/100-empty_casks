@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -o -type d -empty | xargs -r printf "%f\n"
+find . -empty -printf "%P\n"
