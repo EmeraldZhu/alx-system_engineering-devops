@@ -1,0 +1,1 @@
+alias xxx='yyy' for setting an alias 
